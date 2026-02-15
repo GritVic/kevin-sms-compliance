@@ -1,0 +1,23 @@
+# Ignore sensitive files
+.env
+.env.local
+.env.*.local
+
+# Ignore macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+npm-debug.log*
+
+# Ignore node_modules (if any)
+node_modules/
